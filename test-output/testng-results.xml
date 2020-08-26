@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100" started-at="2020-08-14T06:51:57Z" finished-at="2020-08-14T06:51:58Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="100" started-at="2020-08-14T06:51:57Z" finished-at="2020-08-14T06:51:58Z">
+      <class name="frames.CrossBrowserScript">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:frames.CrossBrowserScript@42e26948]" name="setup" is-config="true" duration-ms="0" started-at="2020-08-14T12:21:57Z" finished-at="2020-08-14T12:21:57Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\Yaazhini\eclipse-workspace\frames\testng1.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\Yaazhini\eclipse-workspace\frames\testng1.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:631)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:402)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test()[pri:0, instance:frames.CrossBrowserScript@42e26948]" name="test" duration-ms="6" started-at="2020-08-14T12:21:57Z" finished-at="2020-08-14T12:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="SKIP" signature="sysout()[pri:0, instance:frames.CrossBrowserScript@42e26948]" name="sysout" is-config="true" duration-ms="0" started-at="2020-08-14T12:21:58Z" finished-at="2020-08-14T12:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysout -->
+      </class> <!-- frames.CrossBrowserScript -->
+    </test> <!-- Test1 -->
+    <test name="Test" duration-ms="99" started-at="2020-08-14T06:51:57Z" finished-at="2020-08-14T06:51:58Z">
+      <class name="frames.CrossBrowserScript">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:frames.CrossBrowserScript@3532ec19]" name="setup" is-config="true" duration-ms="0" started-at="2020-08-14T12:21:57Z" finished-at="2020-08-14T12:21:57Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\Yaazhini\eclipse-workspace\frames\testng1.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\Yaazhini\eclipse-workspace\frames\testng1.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:631)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:402)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test()[pri:0, instance:frames.CrossBrowserScript@3532ec19]" name="test" duration-ms="6" started-at="2020-08-14T12:21:57Z" finished-at="2020-08-14T12:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="SKIP" signature="sysout()[pri:0, instance:frames.CrossBrowserScript@3532ec19]" name="sysout" is-config="true" duration-ms="0" started-at="2020-08-14T12:21:58Z" finished-at="2020-08-14T12:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sysout -->
+      </class> <!-- frames.CrossBrowserScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
